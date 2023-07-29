@@ -68,16 +68,20 @@ li {
     display: none;
 }
 
-.hamburger-section {
-    position:absolute;
-    height: 100vh;
-    background-color: transparent;
-    width: 90vw;
-    top: -100px;
-    right: -100px;
-    padding: 100px 100px 0 0 ;
-    text-align: right;
+@media(max-width:599px) {
+    
+    .hamburger-section {
+        position:absolute;
+        height: 100vh;
+        background-color: transparent;
+        width: 90vw;
+        top: -100px;
+        right: -100px;
+        padding: 100px 100px 0 0 ;
+        text-align: right;
+    }
 }
+
 
 .hamberger-menu {
     margin-top: 70px;
